@@ -21,7 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         DBHelper dbHelper=new DBHelper(this);
 
         ArrayList<Student> list=dbHelper.getAllStudent();
-        StudentAdapter adapters=new StudentAdapter(list,this)   ;
+        StudentAdapter adapters=new StudentAdapter(list,this);
         rc.setAdapter(adapters);
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);
         rc.setLayoutManager(layoutManager);

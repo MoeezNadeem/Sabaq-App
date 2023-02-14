@@ -17,7 +17,7 @@ public class MainActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faltu);
-        // this is for the when we add click add record
+        // this is for the when we add click 
 
         Button homepagebac=findViewById(R.id.buttonBack);
         Button addStdInfo=findViewById(R.id.buttonSubmit);
